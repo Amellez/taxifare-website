@@ -64,7 +64,7 @@ def predict_fare(pickup_latitude, pickup_longitude, dropoff_latitude, dropoff_lo
     return response.json()
 
 # Ajouter un bouton de soumission
-if st.button('Soumettre'):
+if st.button('Prix'):
     # Convertir les adresses en coordonnées géographiques
     pickup_latlng = geocode_address(pickup_address)
     dropoff_latlng = geocode_address(dropoff_address)
